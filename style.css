@@ -8,8 +8,24 @@
 
 .player-count {
   font-family: "Roboto", sans-serif;
+  margin-left: 50px;
+  padding-top: 10px;
 }
 
 input {
   width: 5%;
+}
+
+.colour-selector {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.chips {
+  width: 10%;
+  padding-right: 10px;
+}
+
+#colourSelectorPara {
+  font-family: "Roboto", sans-serif;
 }
