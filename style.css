@@ -30,3 +30,16 @@ input {
 #colourSelectorPara {
   font-family: "Roboto", sans-serif;
 }
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  color: white;
+  position: fixed;
+  left: 10px;
+  bottom: 0px;
+  right: 10px;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+}
