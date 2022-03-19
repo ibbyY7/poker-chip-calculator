@@ -25,6 +25,7 @@ input {
 .chips {
   width: 10%;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 #colourSelectorPara {

@@ -13,3 +13,9 @@ const greenChip = document.getElementById("greenChip");
 const blackChip = document.getElementById("blackChip");
 const pinkChip = document.getElementById("pinkChip");
 const yellowChip = document.getElementById("yellowChip");
+
+greyChip.addEventListener('click', addGreyChipToTable);
+
+function addGreyChipToTable(){
+    console.log('Adding grey chip to table')
+}
