@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.heading {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.player-count {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 5%;
+}
