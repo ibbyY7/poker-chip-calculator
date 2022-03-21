@@ -38,10 +38,10 @@
             <table cellpadding="0" cellspacing="0" border="0">
                 <thead>
                     <tr>
-                        <th>Ranking</th>
-                        <th>Hand</th>
-                        <th>Example</th>
-                        <th>Description</th>
+                        <th class="rankingWidth">Ranking</th>
+                        <th class="handWidth">Hand</th>
+                        <th class="exampleWidth">Example</th>
+                        <th class="descriptionWidth">Description</th>
                     </tr>
                 </thead>
             </table>
@@ -50,9 +50,9 @@
             <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
                     <tr>
-                        <td>1 (best)</td>
-                        <td>Royal Flush</td>
-                        <td>
+                        <td class="actualText rankingWidth">1 (best)</td>
+                        <td class="actualText handWidth">Royal Flush</td>
+                        <td class="exampleWidth">
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
                                     <span class="rank">10</span>
@@ -76,13 +76,13 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText descriptionWidth">
                             A royal flush is an ace high straight flush. For example, A-K-Q-J-10 all of diamonds.
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Straight Flush</td>
+                        <td class="actualText">2</td>
+                        <td class="actualText">Straight Flush</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 clubs">
@@ -107,13 +107,13 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText">
                             A Straight Flush is five cards in a row, all in the same suit.
                         </td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Four of a Kind</td>
+                        <td class="actualText">3</td>
+                        <td class="actualText">Four of a Kind</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 diams">
@@ -138,13 +138,13 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText">
                             A Four of a Kind is the same card in each of the four suits.
                         </td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>Full House</td>
+                        <td class="actualText">4</td>
+                        <td class="actualText">Full House</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
@@ -169,13 +169,13 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText">
                             A Full House is a pair plus three of a kind in the same hand.
                         </td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Flush</td>
+                        <td class="actualText">5</td>
+                        <td class="actualText">Flush</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
@@ -201,13 +201,13 @@
                             </div>
 
                         </td>
-                        <td>
+                        <td class="actualText">
                             A Flush is five cards in the same suit, not in numerical order.
                         </td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td>Straight</td>
+                        <td class="actualText">6</td>
+                        <td class="actualText">Straight</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
@@ -233,13 +233,13 @@
                             </div>
 
                         </td>
-                        <td>
+                        <td class="actualText">
                             A Straight is five cards in numerical order, but not in the same suit.
                         </td>
                     </tr>
                     <tr>
-                        <td>7</td>
-                        <td>Three of a kind</td>
+                        <td class="actualText">7</td>
+                        <td class="actualText">Three of a kind</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
@@ -265,13 +265,13 @@
                             </div>
 
                         </td>
-                        <td>
+                        <td class="actualText">
                             Three of a Kind is three of one card and two non-paired cards.
                         </td>
                     </tr>
                     <tr>
-                        <td>8</td>
-                        <td>Two Pair</td>
+                        <td class="actualText">8</td>
+                        <td class="actualText">Two Pair</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 hearts">
@@ -297,13 +297,13 @@
                             </div>
                             
                         </td>
-                        <td>
+                        <td class="actualText">
                             Two Pair is two different pairings or sets of the same card in one hand.
                         </td>
                     </tr>
                     <tr>
-                        <td>9</td>
-                        <td>One Pair</td>
+                        <td class="actualText">9</td>
+                        <td class="actualText">One Pair</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 clubs">
@@ -328,13 +328,13 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText">
                             One Pair is a pairing of the same card.
                         </td>
                     </tr> 
                     <tr>
-                        <td>10</td>
-                        <td>High Card</td>
+                        <td class="actualText">10 (worst)</td>
+                        <td class="actualText">High Card</td>
                         <td>
                             <div class="playingCards fourColours faceImages">
                                 <div class="card rank-1 clubs">
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="actualText">
                             A High Card refers to a hand with no higher ranking.
                         </td>
                     </tr> 
