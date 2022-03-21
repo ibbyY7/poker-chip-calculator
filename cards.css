@@ -9,6 +9,9 @@
 
 /* card itself
 ********************************************************************/
+.opacity {
+    opacity: 0.4;
+}
 
 .playingCards .card {
     display: inline-block;
@@ -19,7 +22,7 @@
     -moz-border-radius: .3em;
     -webkit-border-radius: .3em;
     -khtml-border-radius: .3em;
-    padding: .25em;
+    /* padding: .25em; */
     margin: 0 .5em .5em 0;
     text-align: center;
     font-size: 1.2em; /* @change: adjust this value to make bigger or smaller cards */
@@ -30,6 +33,8 @@
     -moz-box-shadow: .2em .2em .5em #333;
     -webkit-box-shadow: .2em .2em .5em #333;
     box-shadow: .2em .2em .5em #333;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .playingCards a.card {
@@ -62,7 +67,7 @@
     color: #f00 !important;
 }
 .playingCards.fourColours .card.diams {
-    color: #00f !important;
+    color: #f60 !important;
 }
 [lang=de] .playingCards.fourColours .card.diams {
     color: #f60 !important;
@@ -80,7 +85,7 @@
     color: #000 !important;
 }
 .playingCards.fourColours .card.clubs {
-    color: #090 !important;
+    color: #000 !important;
 }
 [lang=de] .playingCards.fourColours .card.clubs {
     color: #000 !important;
@@ -105,9 +110,18 @@
 }
 .playingCards .card .rank {
 }
-.playingCards .card .suit {
+/* .playingCards .card .suit {
     line-height: .7;
+} */
+
+.suit {
+    font-size: 40px;
 }
+
+.rank {
+    font-size: 20px;
+}
+
 
 /* checkbox */
 .playingCards .card input {
